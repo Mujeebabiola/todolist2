@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    height: 10%;
+
+background-color: #e5e5f7;
+opacity: 0.8;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+    
+}
+.li{
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 10px;
+}
+.centerdiv{
+    background-color:white;
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+   
+}
+.date{
+    background-color: #385170;
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+   left: 30%;
+   margin-bottom: 10px;
+}
+.addTask{
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+button{
+    border-radius: 100%;
+    height: 30px;
+}
+input{
+    height: 30px;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+input#checkbox{
+margin-right: 10px;
+}
